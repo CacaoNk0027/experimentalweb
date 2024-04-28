@@ -1,1 +1,0 @@
-require('express')().get('/', (req, res) => res.send('hola a todos'));
