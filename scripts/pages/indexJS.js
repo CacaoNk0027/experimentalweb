@@ -1,15 +1,4 @@
-const api_link = "https://discord.com/api/"
 
-let headers = new Headers({
-    "Authorization": "Bot MTE4MTczOTYyMDU4OTkwNzk3OQ.GVhV7F.e7LU9Q8SGYYmxM0Jl3Oq4AMozWRzTrBTivH8Mg",
-    "User-Agent": "DiscordBot (https://discord.js.org, 2.2.0)",
-    "Access-Control-Allow-Origin": "discord.com"
-})
-
-fetch(api_link, {
-    method: "GET",
-    headers: headers
-}).then(async c => console.log(await c.json()))
 
 
 // async function users() {
